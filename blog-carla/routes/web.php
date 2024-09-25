@@ -7,7 +7,7 @@ use App\Http\Controllers\Auth\AdminLoginController;
 
 Route::get('/', function () {
     return view('boas-vindas');
-});
+})->name('boas-vindas');
 
 Route::get('/posts', function () {
     return view('posts');

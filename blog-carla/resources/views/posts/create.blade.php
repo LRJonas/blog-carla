@@ -4,14 +4,14 @@
     <h1>Create Post</h1>
     <form action="{{ route('posts.store') }}" method="POST">
         @csrf
-        <div>
+        <div class="form-group">
             <label for="title">Title:</label>
-            <input type="text" name="title" id="title" required>
+            <input type="text" name="title" id="title" class="form-control" required>
         </div>
-        <div>
+        <div class="form-group">
             <label for="content">Content:</label>
-            <textarea name="content" id="content" required></textarea>
+            <textarea name="content" id="content" class="form-control" required></textarea>
         </div>
-        <button type="submit">Create</button>
+        <button type="submit" class="btn btn-primary">Create</button>
     </form>
 @endsection
