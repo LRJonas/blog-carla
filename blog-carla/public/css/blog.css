@@ -1,0 +1,185 @@
+/* Tipografia */
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #004466;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004466;
+    color: white;
+    padding: 0px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+}
+
+.profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Botão de WhatsApp Fixo */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+.whatsapp-button button {
+    background-color: #25D366;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp-button button:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-logo {
+    width: 60px;
+    height: 38px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004466;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header__title {
+    margin: 0;
+}
+
+.nav {
+    margin-top: 1rem;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin: 0 1rem;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer__text {
+    margin: 0;
+}
